@@ -1,0 +1,121 @@
+@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 980px) {
+    /* contact section */
+    .icon {
+        padding: 12px !important;
+        border-width: 3px;
+    }
+
+    .contact-form span {
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2.4rem;
+    }
+
+    p {
+        font-size: 1.7rem !important;
+    }
+
+    .navbar-brand .logo {
+        width: 100px;
+    }
+
+    .header-desc p.text-white {
+        font-size: 15px;
+    }
+
+    .Button {
+        font-size: 1.6rem;
+    }
+
+    .header-img {
+        margin-top: 80px;
+        height: 400px;
+    }
+
+    /* resume section */
+    .resume .card {
+        padding: 10px 15px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1.4rem !important;
+    }
+
+    .Button {
+        font-size: 1.2rem;
+        padding: 5px 25px;
+    }
+
+    /* header section */
+    .header-desc .Button {
+        margin-top: 15px;
+    }
+
+    .header-img {
+        margin-top: 45px;
+        height: 250px;
+    }
+
+    /* about section */
+    .about-desc,
+    .service-cards {
+        margin-top: 50px;
+    }
+
+    /* skill resume blog testimonials project and contact section common margin */
+    .skills-progress,
+    .resume,
+    .blog-card,
+    .contact-form,
+    .carousel,
+    .project-info {
+        margin-top: 40px !important;
+    }
+
+    .progress-title {
+        font-size: 1.4rem;
+    }
+
+    /* testimonials section */
+    .carousel-item img {
+        height: 500px;
+    }
+
+    /* contact section */
+    textarea {
+        margin-bottom: 30px !important;
+    }
+
+    /* footer section */
+    footer p {
+        font-size: 1.2rem !important;
+        text-align: center;
+    }
+}
